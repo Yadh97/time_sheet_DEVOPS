@@ -22,7 +22,7 @@ class UserServiceImplTest {
 	@Test
 	public void testRetrieveAllUsers() {
 		List<User> listUsers = us.retrieveAllUsers();
-		Assertions.assertEquals(2,listUsers.size());
+		Assertions.assertEquals(1,listUsers.size());
 		
 	}
 	
